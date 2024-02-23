@@ -143,7 +143,7 @@ class ProductManager{
     }
   }
   
-const productManager = new ProductManager(String.raw`C:\Users\Intel\Desktop\coderBackEnd/test.json`)
+const productManager = new ProductManager(String.raw`./test.json`)
   
 productManager.addProduct("Coca Cola 500ml", "Esta sabroza cola premium resalta por si sola gracias a su perfecta efervecencia y buen balance de sabores", 950, "www.imagen.com", "cc500", 43)
 productManager.addProduct("Pepsi 500ml", "Refrescante cola con un toque de limón, perfecta para cualquier ocasión.", 850, "www.imagen.com/pepsi", "p500", 50)
